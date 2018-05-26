@@ -1,0 +1,34 @@
+﻿<Window x:Class="LoginPortal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginPortal"
+        xmlns:models="clr-namespace:LoginPortal.Models"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <!--<Window.Resources>
+        <models:User x:Key="User"></models:User>
+    </Window.Resources>-->
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <TextBox Grid.Row="0" Name="FirstNameTextBox" Text="{Binding FirstName, Mode=TwoWay}"></TextBox>
+        
+        <TextBox Grid.Row="1" Name="LastNameTextBox" Text="{Binding LastName, Mode=TwoWay}"></TextBox>
+
+        <TextBox Grid.Row="2" Name="FullNameTextBox" Text="{Binding FullName, Mode=OneWay}"></TextBox>
+        
+        <!--<TextBox Grid.Row="0" Name="FirstNameTextBox" Text="{Binding Source={StaticResource User}, Mode=TwoWay, Path=FirstName}"></TextBox>
+        
+        <TextBox Grid.Row="1"  Name="LastNameTextBox" Text="{Binding Source={StaticResource User}, Mode=TwoWay, Path=LastName}"></TextBox>-->
+        
+    </Grid>
+</Window>

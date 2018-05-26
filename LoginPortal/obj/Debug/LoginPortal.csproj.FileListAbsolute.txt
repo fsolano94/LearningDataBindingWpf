@@ -1,0 +1,15 @@
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\bin\Debug\LoginPortal.exe.config
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\bin\Debug\LoginPortal.exe
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\bin\Debug\LoginPortal.pdb
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.csprojResolveAssemblyReference.cache
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\MainWindow.g.cs
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\App.g.cs
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal_MarkupCompile.cache
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal_MarkupCompile.lref
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\MainWindow.baml
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.g.resources
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.Properties.Resources.resources
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.csproj.GenerateResource.Cache
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.csproj.CoreCompileInputs.cache
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.exe
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.pdb
