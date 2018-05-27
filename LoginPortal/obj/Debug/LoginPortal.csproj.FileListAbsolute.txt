@@ -13,3 +13,4 @@ C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.csproj
 C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.csproj.CoreCompileInputs.cache
 C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.exe
 C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\LoginPortal.pdb
+C:\Users\fsola\Source\Repos\LoginPortal\LoginPortal\obj\Debug\GeneratedInternalTypeHelper.g.cs

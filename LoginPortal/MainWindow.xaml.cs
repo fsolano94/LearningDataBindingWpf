@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using LoginPortal.Models;
+using LoginPortal.Views;
 
 namespace LoginPortal
 {
@@ -21,12 +22,40 @@ namespace LoginPortal
     /// </summary>
     public partial class MainWindow : Window
     {
-        User _user = new User() { FirstName = "Francisco", LastName="Solano"};
+       // User _selectedUser;
+        List<User> _users = new List<User>()
+        {
+            
+        };
+
+        UserViewModel _userViewModel;
 
         public MainWindow()
         {
+            //_selectedUser = _users[0];
             InitializeComponent();
-            DataContext = _user;
+            DataContext = this;
+        }
+
+
+        private void SelectUserDropDownList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var comboBoxOfUsers = sender as ComboBox;
+            var selectedUser = comboBoxOfUsers.SelectedItem as User;
+
+            if (FirstNameTextBox != null)
+            {
+                FirstNameTextBox.Text = selectedUser?.FirstName;
+            }
+            if (LastNameTextBox != null)
+            {
+                LastNameTextBox.Text = selectedUser?.LastName;
+            }
+            if (FullNameTextBox != null)
+            {
+                FullNameTextBox.Text = selectedUser?.FullName; 
+            }
+
         }
     }
 }
