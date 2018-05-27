@@ -22,17 +22,8 @@ namespace LoginPortal
     /// </summary>
     public partial class MainWindow : Window
     {
-       // User _selectedUser;
-        List<User> _users = new List<User>()
-        {
-            
-        };
-
-        UserViewModel _userViewModel;
-
         public MainWindow()
         {
-            //_selectedUser = _users[0];
             InitializeComponent();
             DataContext = this;
         }
