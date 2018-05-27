@@ -42,7 +42,7 @@ namespace LoginPortal.Models
             }
         }
 
-        public string FullName { get => FirstName + " " + LastName; }
+        public string FullName { get => string.Format("{0} {1}", FirstName, LastName); }
 
         public User()
         {
