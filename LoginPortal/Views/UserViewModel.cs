@@ -19,6 +19,6 @@ namespace LoginPortal.Views
             new User("Scott", "Cambell")
         };
 
-        public ObservableCollection<User> User => _users;
+        public ObservableCollection<User> Users => _users;
     }
 }

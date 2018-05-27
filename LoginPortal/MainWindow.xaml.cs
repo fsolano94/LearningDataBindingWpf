@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,10 +23,11 @@ namespace LoginPortal
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string USER_VIEW_MODEL_RESOURCE_KEY_NAME = "DataSource";
+
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
         }
 
 
@@ -44,7 +46,7 @@ namespace LoginPortal
             }
             if (FullNameTextBox != null)
             {
-                FullNameTextBox.Text = selectedUser?.FullName; 
+                FullNameTextBox.Text = selectedUser?.FullName;
             }
 
         }
